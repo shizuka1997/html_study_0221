@@ -1,4 +1,12 @@
 .flexbox-container {
+    display: flex;
+    /* 「flex-directionプロパティの値 flex-wrapプロパティの値」の順で一括指定します */
+    /* justify-content: center; */
+
+    
+    /* flex-wrap: wrap; */
+    /* align-content: space-between; */
+    height: 500px;
     padding: 5px;
     background-color: lightcyan;
 }
@@ -6,4 +14,29 @@
     padding: 5px;
     margin: 5px;
     background-color: orange;
+}
+#item01 {
+    flex-basis: 150px;
+    align-self: flex-start;
+}
+#item02 {
+    flex-basis: 25%;
+}
+#item03 {
+    align-self: center;
+}
+#item04 {
+    
+}
+#item05 {
+    align-self: flex-end;
+}
+#item06 {
+    
+}
+#item07 {
+    align-self: baseline;
+}
+#item08 {
+
 }
